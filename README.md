@@ -29,7 +29,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 Sources used include:
 -Portfolio generating mini project
--Study group ()
+-Study group (Lina Choi, Seamona Stewart, Noah Brunner, Steve Snavely, James Edwards)
 
 ## License
 
