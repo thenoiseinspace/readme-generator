@@ -2,7 +2,7 @@
 
 ## Description
 
-This project generates professional-grade README files using Node. It was built to make it easier for developers to generate quality READMEs using only the command line, without having to open .md documents. It has also been a great way for me to master the basics of Node. 
+This project generates professional-grade README files using Node. It was built to make it easier for developers to generate quality READMEs using only the command line, without having to open .md documents. It has also been a great way for me to practice the basics of Node. 
 
 ## Table of Contents
 
@@ -13,19 +13,22 @@ This project generates professional-grade README files using Node. It was built 
 
 ## Installation
 
-Set up Node.js.Run pnm install and make sure you have Inquirer. Enter all values in the command line when prompted. 
+Set up Node.js. Run npm install and make sure you have Inquirer. Type "node index.js" and hit enter. The app will then prompt you to enter in your values in the command line. 
 
 ## Usage
 
 Use this app to generate a README file. Answer each prompt in your command line to generate. 
 
+Github repo link: https://github.com/thenoiseinspace/readme-generator 
+
+Images (also in assets folder):
+<img src="https://github.com/thenoiseinspace/weather-app/blob/main/assets/screenshot1.png">
+
+<img src="https://github.com/thenoiseinspace/weather-app/blob/main/assets/screenshot2.png">
+
 Screenshots:
-    ```md
-    ![screenshot1](assets/screenshot1.png)
-    ```
-        ```md
-    ![screenshot2](assets/screenshot2.png)
-    ```
+(assets/screenshot1.png)
+(assets/screenshot2.png)
 
 Screen recording here: https://drive.google.com/file/d/1Vsz8fr5es3BwEVG4uljb13lU2gO0zCBS/view?usp=sharing 
 
