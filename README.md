@@ -22,13 +22,9 @@ Use this app to generate a README file. Answer each prompt in your command line 
 Github repo link: https://github.com/thenoiseinspace/readme-generator 
 
 Images (also in assets folder):
-<img src="https://github.com/thenoiseinspace/weather-app/blob/main/assets/screenshot1.png">
+<img src="./assets/screenshot1.png">
 
-<img src="https://github.com/thenoiseinspace/weather-app/blob/main/assets/screenshot2.png">
-
-Screenshots:
-(assets/screenshot1.png)
-(assets/screenshot2.png)
+<img src="./assets/screenshot2.png">
 
 Screen recording here: https://drive.google.com/file/d/1Vsz8fr5es3BwEVG4uljb13lU2gO0zCBS/view?usp=sharing 
 
