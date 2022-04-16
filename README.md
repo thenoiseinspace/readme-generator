@@ -19,20 +19,22 @@ Set up Node.js.Run pnm install and make sure you have Inquirer. Enter all values
 
 Use this app to generate a README file. Answer each prompt in your command line to generate. 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
+Screenshots:
     ```md
-    ![alt text](assets/images/screenshot.png)
+    ![screenshot1](assets/screenshot1.png)
+    ```
+        ```md
+    ![screenshot2](assets/screenshot2.png)
     ```
 
 ## Credits
 
 Sources used include:
--Portfolio generating mini project
+-Node documentation: https://nodejs.dev/learn/writing-files-with-nodejs
+-Class activities: 19, 9, 10 and mini project from Node unit
+-List of license badges here: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba 
 -Study group (Lina Choi, Seamona Stewart, Noah Brunner, Steve Snavely, James Edwards)
 -Individual study group with Chris Rowe
--Node documentation: https://nodejs.dev/learn/writing-files-with-nodejs
--Class activities: 19, 9, 10 from Node unit
 
 ## License
 

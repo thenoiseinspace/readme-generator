@@ -4,15 +4,14 @@ const inquirer = require('inquirer');
 //linking fs here allows us to write to a file
 const fs = require('fs');
 //This connects the other js file
-const generator = require('./generator'); 
+const generator = require('./assets/generator'); 
+const generateMarkdown = require('./assets/generator');
 
 // Array of questions for user input
 //Why would we put them here though? Why not structure it like activity 19? I've created an empty array to satisfy this requirement but the questions are below. 
 const questions = [ ];
 
-// TODO: Create a function to write README file
-
-// TODO: Create a function to initialize app
+// Creating a function to initialize app
 
 function init() {
     inquirer
@@ -52,9 +51,10 @@ function init() {
   
 
   ])
+  // Creating a function to write README file
   .then((response) => {
     console.log(response); 
-    fs.writeFile(`generatedREADME.md`, JSON.stringify(response),  () => {
+    fs.writeFile(`generatedREADME.md`, generateMarkdown(response),  () => {
       console.log("README is being generated"); 
     });
   });
