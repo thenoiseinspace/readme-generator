@@ -1,13 +1,32 @@
+//Note: Please see index.html for citations for specific sections
+// Packages needed for this application
 const inquirer = require('inquirer');
 //linking fs here allows us to write to a file
 const fs = require('fs');
-//imports the other js file to generate the page
-const generator = require("./generator");
+//This connects the other js file
+const generator = require('./generator'); 
 
-//prompting user for answers
-//this is based on activity 19
-inquirer
-  .prompt([
+// Array of questions for user input
+const questions = [ ];
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, response) {
+
+  fs.writeFile(fileName, content, err => {
+    if (err) {
+      console.error(err)
+      return
+    }
+  //file written successfully
+    })
+}
+
+// TODO: Create a function to initialize app
+
+function init() {
+    inquirer
+  .prompt([ 
+
     {
       type: 'input',
       message: 'What is your project called?',
@@ -38,32 +57,20 @@ inquirer
       message: 'What license governs the usage of your project?',
       name: 'license',
     },
+  
+
   ])
-  .then((response) => {
+  .then((response) => 
     console.log(response) 
-    //console logging individual part to check
-    // console.log(response.username)
-
-    //it's breaking--is this a scopiing problem? 
-  }
+      ? console.log('Success!')
+      : console.log('It is broken!')
   );
-
-  //Making the write to file in this file but grabbing data from generator file
-  //generator page is a bunch of functions that have template literals
-
-   //This section comes from the Node documentation 
-
-const content = {
-  finalTitle, finalDescription, finalInstallation, finalUsage, finalCredits
-}; 
-
-//this generates a folder called Output and a file called generated-readme. It prints the content to the readme and puts that file in the folder. 
- fs.writeFile('/Output/generated-readme.md', content, err => {
-  if (err) {
-    console.error(err)
-    return
-  }
-  //file written successfully
-})
+}
 
 
+//     writeToFile(`${response.title}.md`);
+//   );
+// }
+
+// Call function to initialize app
+init();
