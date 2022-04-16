@@ -26,6 +26,8 @@ Images (also in assets folder):
 
 <img src="./assets/screenshot2.png">
 
+<img src="./assets/screenshot3.png">
+
 Screen recording here: https://drive.google.com/file/d/1Vsz8fr5es3BwEVG4uljb13lU2gO0zCBS/view?usp=sharing 
 
 ## Credits
