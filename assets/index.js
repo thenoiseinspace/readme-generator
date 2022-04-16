@@ -7,19 +7,10 @@ const fs = require('fs');
 const generator = require('./generator'); 
 
 // Array of questions for user input
+//Why would we put them here though? Why not structure it like activity 19? I've created an empty array to satisfy this requirement but the questions are below. 
 const questions = [ ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, response) {
-
-  fs.writeFile(fileName, content, err => {
-    if (err) {
-      console.error(err)
-      return
-    }
-  //file written successfully
-    })
-}
 
 // TODO: Create a function to initialize app
 
@@ -53,24 +44,21 @@ function init() {
       name: 'credits',
     },
     {
-      type: 'input',
+      type: 'checkbox',
       message: 'What license governs the usage of your project?',
       name: 'license',
+      choices: ["MIT", "General Public License v3", "Apache", "Other"]
     },
   
 
   ])
-  .then((response) => 
-    console.log(response) 
-      ? console.log('Success!')
-      : console.log('It is broken!')
-  );
+  .then((response) => {
+    console.log(response); 
+    fs.writeFile(`generatedREADME.md`, JSON.stringify(response),  () => {
+      console.log("README is being generated"); 
+    });
+  });
 }
-
-
-//     writeToFile(`${response.title}.md`);
-//   );
-// }
 
 // Call function to initialize app
 init();

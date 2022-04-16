@@ -13,11 +13,11 @@ This project generates professional-grade README files using Node. It was built 
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Set up Node.js.Run pnm install and make sure you have Inquirer. Enter all values in the command line when prompted. 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Use this app to generate a README file. Answer each prompt in your command line to generate. 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -30,6 +30,9 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 Sources used include:
 -Portfolio generating mini project
 -Study group (Lina Choi, Seamona Stewart, Noah Brunner, Steve Snavely, James Edwards)
+-Individual study group with Chris Rowe
+-Node documentation: https://nodejs.dev/learn/writing-files-with-nodejs
+-Class activities: 19, 9, 10 from Node unit
 
 ## License
 
