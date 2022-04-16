@@ -27,11 +27,13 @@ Screenshots:
     ![screenshot2](assets/screenshot2.png)
     ```
 
+Screen recording here: https://drive.google.com/file/d/1Vsz8fr5es3BwEVG4uljb13lU2gO0zCBS/view?usp=sharing 
+
 ## Credits
 
 Sources used include:
 -Node documentation: https://nodejs.dev/learn/writing-files-with-nodejs
--Class activities: 19, 9, 10 and mini project from Node unit
+-Class activities: 19, 9, 10, 12 and mini project from Node unit
 -List of license badges here: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba 
 -Study group (Lina Choi, Seamona Stewart, Noah Brunner, Steve Snavely, James Edwards)
 -Individual study group with Chris Rowe
