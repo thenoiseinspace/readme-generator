@@ -54,6 +54,8 @@ function generateMarkdown(response) {
   *[Usage] (#usage) \n
   *[Credits] (#credits) \n
   *[License] (#license) \n 
+  *[Tests] (#tests) \n
+  *[Questions] (#questions)
 
   ## Installation \n
   ${response.installation} \n
@@ -67,6 +69,12 @@ function generateMarkdown(response) {
   ## License \n
   ${response.license}
 
+  ## Tests \n
+  ${response.tests}
+
+  ## Questions \n
+  ${response.questions}
+  View more from this user by viewing their profile at https://github.com/${response.username} or by emailing them at ${response.email}. 
 `;
 }
 

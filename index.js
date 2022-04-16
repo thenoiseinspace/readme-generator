@@ -1,4 +1,6 @@
-//Note: Please see index.html for citations for specific sections
+//Note: Please see psuedocode.html for citations for specific sections. Also, I moved my index file and somehow ended up with double package.json and package lock files. I don't know why. 
+
+
 // Packages needed for this application
 const inquirer = require('inquirer');
 //linking fs here allows us to write to a file
@@ -48,8 +50,26 @@ function init() {
       name: 'license',
       choices: ["MIT", "General Public License v3", "Apache", "Other"]
     },
-  
-
+    {
+      type: 'input',
+      message: 'What tests have been run on this project?',
+      name: 'tests',
+    },
+    {
+      type: 'input',
+      message: 'How should users reach out to you with questions?',
+      name: 'questions',
+    },
+    {
+      type: 'input',
+      message: 'What is your GitHub username?',
+      name: 'username',
+    },
+    {
+      type: 'input',
+      message: 'What is your email address?',
+      name: 'email',
+    },
   ])
   // Creating a function to write README file
   .then((response) => {
