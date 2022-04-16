@@ -1,32 +1,35 @@
 
-  # test title 
+  # title 
 
   
   ## Description 
 
-  test description 
+  describe 
 
 
   ## Table of Contents
-  *[Installation](#installation) 
+  *[Installation] (#installation) 
 
-  *[Usage] (#usage)
-  *[Credits] (#credits)
-  *[License] (#license)
+  *[Usage] (#usage) 
+
+  *[Credits] (#credits) 
+
+  *[License] (#license) 
+ 
 
   ## Installation 
 
-  test install 
+  install 
 
 
   ## Usage 
 
-  test use 
+  use 
 
 
   ## Credits 
 
-  test collab 
+  collab 
 
 
   ## License 

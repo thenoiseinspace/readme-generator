@@ -50,10 +50,10 @@ function generateMarkdown(response) {
   ${response.description} \n
 
   ## Table of Contents
-  *[Installation] (#installation) 
-  *[Usage] (#usage)
-  *[Credits] (#credits)
-  *[License] (#license)
+  *[Installation] (#installation) \n
+  *[Usage] (#usage) \n
+  *[Credits] (#credits) \n
+  *[License] (#license) \n 
 
   ## Installation \n
   ${response.installation} \n
